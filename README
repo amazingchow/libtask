@@ -1,3 +1,9 @@
+Fork addendum: This is a fork of libtask and adds support for epoll()
+and other things helpful for writing high-performance network servers
+using libtask on Linux.
+
+--------------------------------------------------------------------------------
+
 Libtask is a simple coroutine library.  It runs on Linux (ARM, MIPS, and x86),
 FreeBSD (x86), OS X (PowerPC x86, and x86-64), and SunOS Solaris (Sparc),
 and is easy to port to other systems.
@@ -242,5 +248,3 @@ etc.
 	http://swtch.com/~rsc/thread/
 	and also the example program primes.c, which implements
 	a concurrent prime sieve.
-
-
